@@ -454,7 +454,10 @@ export default {
       this.$store.dispatch("declineBuild", { ...this.$store.state.route.params, stage: this.stage.number });
     },
     loadLogsForStep(step) {
-      if (!step) console.warn("invalid step argument. loadLogsForStep skipped"); //eslint-disable-line
+      if (!step) {
+        console.warn("invalid step argument. loadLogsForStep skipped"); //eslint-disable-line
+        return;
+      }
 
       if (step.stopped) {
         this.$store.dispatch("fetchLogs", this.$route.params);
@@ -524,7 +527,7 @@ export default {
 
 .button-restart,
 .button-cancel {
-  width: 116px;
+  width: 125px;
   text-align: left;
 
   svg {
@@ -637,9 +640,9 @@ $output-border-radius: 6px;
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
-  background-color: #192d46;
+  background-color: #222;
   border-radius: $output-border-radius;
-  box-shadow: 0px 0px 8px 1px #e8eaed;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   padding: 0;
 }
@@ -713,7 +716,7 @@ $output-header-sticky-offset: $stages-top;
     bottom: $output-header-height - $output-border-radius;
     left: -10px; // hide box-shadow of content
     right: -10px;
-    background: $body-color;
+    // background: $body-color;
     z-index: $output-header-before-z-index;
   }
 
@@ -724,9 +727,9 @@ $output-header-sticky-offset: $stages-top;
 
 .output-header-content {
   position: relative;
-  background: #192d46;
+  background: #111;
   padding: 0 5px 0 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-top: 1px solid transparent;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.6);

@@ -16,8 +16,8 @@ export default {
 
 <style scoped>
 select {
-  color: #192d46;
-  border: 1px solid rgba(25, 45, 70, 0.25);
+  color: #888;
+  border: 1px solid rgba(180, 180, 180, 0.2);
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 14px;
@@ -25,7 +25,7 @@ select {
   height: 40px;
   line-height: 40px;
   -webkit-appearance: none;
-  background: #fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon fill='#98a1ab' points='0,30 100, 30 50,90'/></svg>") no-repeat center right 10px;
+  background: #333 url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><polygon fill='#98a1ab' points='0,30 100, 30 50,90'/></svg>") no-repeat center right 10px;
   background-size: 10px;
 }
 
@@ -35,6 +35,6 @@ select:focus {
 }
 
 select::placeholder {
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(180, 180, 180, 0.2);
 }
 </style>

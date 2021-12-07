@@ -62,7 +62,7 @@ export default {
 }
 
 time {
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(160, 160, 160, 0.6);
   text-align: right;
   flex-shrink: 0;
   margin-left: 10px;
@@ -71,7 +71,7 @@ time {
 
 .icon-arrow-dropdown {
   flex-shrink: 0;
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(0, 115, 255, 0.6);
 }
 
 section:after {

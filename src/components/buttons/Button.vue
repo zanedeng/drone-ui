@@ -137,7 +137,7 @@ export default {
   }
 
   &.outline {
-    color: #192d46;
+    color: #0564d7;
 
     @include hf {
       color: #0564d7;

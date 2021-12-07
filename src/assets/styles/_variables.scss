@@ -5,7 +5,7 @@ $bp-mobile: 480px;
 /* [-----------](-----------)[-----------> */
 /*           480px       980px             */
 
-$color-text: #192D46;
+$color-text: #888888;
 $color-primary: #0564d7;
 $color-warning: #ff7d00;
 $color-danger: #ff4164;
@@ -17,17 +17,17 @@ $bg-color-opacity-hover: 0.1;
 $color-primary-bg: rgba($color-primary, $bg-color-opacity);
 $color-primary-bg-hover: rgba($color-primary, $bg-color-opacity-hover);
 
-$body-color: #fbfbfb;
+$body-color: #111;
 $border-color: rgba($color-text, 0.05);
 $bg-hover-color: mix($color-text, #fff, 3%);
 
-$header-color: $color-text;
+$header-color: #1c1c1c;
 $header-height: 56px;
 $header-padding-side: 15px;
 
 $button-outline-hover-bg-opacity: $bg-color-opacity-hover;
 
-$step-selected-bg-color: $bg-hover-color;
+$step-selected-bg-color: #222;
 
 $overlay-z-index: 10;
 

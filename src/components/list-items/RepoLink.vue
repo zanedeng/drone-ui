@@ -37,6 +37,6 @@ export default {
 }
 
 .repo-link .repo-item.build-no.active-no .header .title {
-  color: #192d46;
+  color: #888;
 }
 </style>

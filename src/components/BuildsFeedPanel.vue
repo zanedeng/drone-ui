@@ -57,7 +57,7 @@ export default {
   .alert {
     margin: 0 $header-padding-side;
     box-shadow: none;
-    color: rgba(25, 45, 70, 0.6);
+    color: rgba(180, 180, 180, 0.5);
   }
 
   .repo-item.media-mobile {

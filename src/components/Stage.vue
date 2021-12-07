@@ -42,9 +42,9 @@ export default {
 
 <style scoped lang="scss">
 .stage {
-  background: #FFF;
+  background: #000;
   box-shadow: 0 2px 4px 0 rgba(25, 45, 70, .05);
-  border: 1px solid #edeef1;
+  border: 1px solid #333;
   border-radius: 3px;
   box-sizing: border-box;
   user-select: none;
@@ -52,12 +52,12 @@ export default {
 
 header {
   align-items: center;
-  border-bottom: solid 1px rgba(25, 45, 70, 0.1);
+  border-bottom: solid 1px rgba(160, 160, 160, 0.2);
   display: flex;
   height: 40px;
   padding: 0 15px;
   user-select: none;
-  color: #192d46;
+  color: #888;
 }
 
 .status {
@@ -78,7 +78,7 @@ span {
   font-size: 13px;
   font-weight: 400;
   flex-shrink: 0;
-  color: #192d46;
+  color: #666;
   position: relative;
 
   .hint {
@@ -117,7 +117,7 @@ span {
 
     > a {
       display: block;
-      color: #192d46;
+      color: #888;
 
       &:hover,
       &:focus {

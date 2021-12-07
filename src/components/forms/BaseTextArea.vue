@@ -13,14 +13,15 @@ export default {
 
 <style scoped>
 textarea {
-  color: #192d46;
-  border: 1px solid rgba(25, 45, 70, 0.25);
+  color: #888;
+  border: 1px solid rgba(180, 180, 180, 0.2);
   border-radius: 3px;
   box-sizing: border-box;
   font-size: 14px;
   padding: 0 15px;
   height: 40px;
   line-height: 40px;
+  background-color: #333;
 }
 
 textarea:focus {
@@ -29,6 +30,6 @@ textarea:focus {
 }
 
 textarea::placeholder {
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(180, 180, 180, 0.2);
 }
 </style>

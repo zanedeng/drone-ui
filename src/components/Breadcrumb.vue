@@ -64,7 +64,7 @@ export default {
 
 .divider {
   padding: 0 8px;
-  color: rgba(25, 45, 70, 0.6);
+  color: #0564d7;
   vertical-align: bottom;
 }
 </style>

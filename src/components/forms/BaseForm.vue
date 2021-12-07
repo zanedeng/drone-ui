@@ -45,7 +45,7 @@ export default {
 .control-group .control-label {
   flex: 0 0 150px;
   margin-right: 15px;
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(190, 190, 190, 0.6);
 
   @include tablet {
     flex-basis: auto;

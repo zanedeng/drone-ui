@@ -56,7 +56,7 @@ span {
 }
 
 svg {
-  color: rgba(25, 45, 70, 0.6);
+  color: #0564d7;
   margin: 5px 0 0;
 }
 </style>

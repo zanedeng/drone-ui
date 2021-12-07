@@ -83,7 +83,7 @@ export default {
 }
 
 .alert {
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(180, 180, 180, 0.5);
   padding: 45px 0;
   text-align: center;
 }
@@ -110,7 +110,7 @@ export default {
     display: block;
     margin-bottom: 15px;
     width: 100%;
-    border-color: rgba(25, 45, 70, 0.15);
+    // border-color: rgba(25, 45, 70, 0.15);
   }
 
   textarea {

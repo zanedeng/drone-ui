@@ -33,8 +33,8 @@ export default {
 .card {
   border-radius: 3px;
   box-sizing: border-box;
-  border: solid 1px #EDEEF1;
-  background: #fff;
+  border: solid 1px #333;
+  background: rgba(20, 20, 20, .4);
   box-shadow: $box-shadow;
 
   &.hoverable {
@@ -49,7 +49,7 @@ export default {
 header {
   height: 50px;
   line-height: 50px;
-  border-bottom: 1px solid rgba(25, 45, 70, 0.05);
+  border-bottom: 1px solid rgba(180, 180, 180, 0.2);
   padding: 0 15px;
   display: flex;
   align-items: center;

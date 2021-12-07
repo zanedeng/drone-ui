@@ -104,7 +104,7 @@ export default {
 .repo-item {
   border-radius: 3px;
   box-sizing: border-box;
-  color: #192d46;
+  color: #888;
   padding: 15px;
 
   @include mobile(true) {
@@ -163,7 +163,7 @@ export default {
   height: 22px;
   font-size: 18px;
   line-height: normal;
-  color: #192d46;
+  color: #888;
   display: flex;
   align-items: flex-start;
 
@@ -206,7 +206,7 @@ export default {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  color: #c6cbd1;
+  color: #888;
   flex-shrink: 0;
 }
 
@@ -222,7 +222,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(25, 45, 70, 0.6);
+  color: #888;
 
   .header + & {
     margin-top: 6px;

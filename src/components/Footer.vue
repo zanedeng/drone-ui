@@ -27,7 +27,7 @@ footer {
   box-shadow: 0 -2px 6px 0px rgba(25, 45, 70, 0.05);
   box-sizing: border-box;
   min-height: 60px;
-  background: #fff;
+  background: #111;
 
   @include tablet {
     padding-top: 20px;
@@ -43,7 +43,7 @@ nav.nav-right {
 }
 
 nav a {
-  color: rgba(25, 45, 70, 0.6);
+  color: rgba(151, 151, 151, 0.6);
 
   & + a {
     margin-left: $header-padding-side;

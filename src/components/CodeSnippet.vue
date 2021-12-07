@@ -65,7 +65,7 @@ export default {
 @import "../assets/styles/_variables.scss";
 
 .code-snippet {
-  background-color: #fbfbfb;
+  background-color: #111;
   border-radius: 3px;
   color: $color-text;
 }
@@ -75,7 +75,7 @@ header {
   display: flex;
   height: 50px;
   padding: 0px 15px;
-  border-bottom: 1px solid rgba($color-text, 0.05);
+  border-bottom: 1px solid rgba($color-text, 0.4);
 }
 
 header h1,
@@ -127,6 +127,7 @@ code {
   &.hljs {
     background: transparent;
     padding: 0;
+    color: $color-text;
   }
 
   &.bash-terminal,
@@ -166,8 +167,8 @@ code {
 }
 
 svg {
-  fill: #192d46;
-  opacity: 0.25;
+  fill: #808080;
+  opacity: 0.5;
   width: 22px;
   height: 22px;
 }

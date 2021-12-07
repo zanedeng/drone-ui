@@ -100,7 +100,7 @@ export default {
 
 .header {
   height: $header-height;
-  box-shadow: 0 2px 4px 0 rgba(25, 45, 70, 0.05);
+  // box-shadow: 0 2px 4px 0 rgba(180, 180, 180, 0.1);
   background-color: rgba($header-color, 0.97);
   align-items: center;
   box-sizing: border-box;

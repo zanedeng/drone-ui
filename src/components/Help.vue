@@ -73,7 +73,7 @@ export default {
 .header {
   line-height: 18px;
   padding: 11px 15px;
-  border-bottom: 1px solid rgba($color-text, 0.05);
+  border-bottom: 1px solid rgba($color-text, 0.2);
   font-weight: 600;
 }
 

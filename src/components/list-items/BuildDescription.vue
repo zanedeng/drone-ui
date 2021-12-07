@@ -34,7 +34,7 @@ export default {
 
 <style scoped lang="scss">
 .build-description {
-  color: rgba(25, 45, 70, 0.6);
+  color: #888;
   line-height: 20px;
 }
 
