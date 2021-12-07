@@ -72,7 +72,7 @@ export default {
   position: fixed;
   top: $header-height;
   bottom: 0;
-  background-color: #fff;
+  background-color: #111;
   overflow: auto;
 }
 </style>

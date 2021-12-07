@@ -62,8 +62,8 @@ export default {
 
   .repo-item.media-mobile {
     border: none;
-    border-top: 1px solid rgba(25, 45, 70, 0.05);
-    border-bottom: 1px solid rgba(25, 45, 70, 0.05);
+    border-top: 1px solid rgba(180, 180, 180, 0.3);
+    border-bottom: 1px solid rgba(180, 180, 180, 0.3);
     box-shadow: none;
     border-radius: 0;
 
