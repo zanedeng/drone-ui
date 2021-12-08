@@ -89,7 +89,7 @@ export default {
   box-sizing: border-box;
   position: relative;
   border: 1px solid transparent;
-  color: #fff;
+  color: #777;
 }
 
 .theme-success {
