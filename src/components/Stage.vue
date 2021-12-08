@@ -42,7 +42,7 @@ export default {
 
 <style scoped lang="scss">
 .stage {
-  background: #000;
+  background: rgba(0, 0, 0, .15);
   box-shadow: 0 2px 4px 0 rgba(25, 45, 70, .05);
   border: 1px solid #333;
   border-radius: 3px;
