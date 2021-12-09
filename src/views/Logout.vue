@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="logout">
-      <h1>Your are now signed out</h1>
+      <h1>您现在已经登出了!</h1>
     </div>
   </div>
 </template>
@@ -9,7 +9,6 @@
 <style scoped>
 div.container {
   align-items: center;
-  background: #fbfbfb;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -21,10 +20,10 @@ div.container {
 .logout {
   width: 300px;
 
-  background: #FFF;
-  border: 1px solid #e8eaed;
+  background: rgba(17, 17, 17, .4);
+  border: 1px solid #333;
   border-radius: 3px;
-  box-shadow: 0px 0px 8px 1px #e8eaed;
+  box-shadow: 0px 0px 8px 1px #222;
   padding: 30px;
 }
 </style>

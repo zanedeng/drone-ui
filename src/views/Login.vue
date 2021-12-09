@@ -3,9 +3,9 @@
     <div class="login">
       <form action="/login" method="POST">
         <div class="logo"><Logo /></div>
-        <BaseInput name="username" placeholder="Login" type="text" />
-        <BaseInput name="password" placeholder="Password" type="password" />
-        <Button type="submit" theme="primary" size="l">Login</Button>
+        <BaseInput name="username" placeholder="用户名" type="text" />
+        <BaseInput name="password" placeholder="密码" type="password" />
+        <Button type="submit" theme="primary" size="l">登录</Button>
       </form>
     </div>
   </div>
@@ -39,8 +39,7 @@ div.container {
   width: 340px;
   padding: 70px 20px 30px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(25, 45, 70, 0.05);
-  background-color: #ffffff;
+  background-color: rgba(75, 75, 75, .25);
   position: relative;
 }
 
@@ -49,8 +48,7 @@ div.container {
   padding: 16px;
   margin-bottom: 30px;
   position: absolute;
-  background: #fbfbfb;
-  top: -41px;
+  top: 0px;
   left: 50%;
   margin-left: -41px;
   border-radius: 50%;

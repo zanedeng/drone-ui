@@ -21,6 +21,10 @@ export default new Router({
   base: "/",
   routes: [
     {
+      path: "/welcome",
+      redirect: '/login/form'
+    },
+    {
       path: "/login/form",
       name: "login",
       component: Login
