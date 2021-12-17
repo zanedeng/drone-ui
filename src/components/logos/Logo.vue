@@ -1,3 +1,3 @@
 <template>
-  <img src="~@/assets/drone.png" alt="Drone" width="100" />
+  <img src="~@/assets/drone.svg" alt="Drone" width="100" />
 </template>
